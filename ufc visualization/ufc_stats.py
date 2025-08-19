@@ -8,7 +8,7 @@ ufc_frame = pd.read_csv("rankings_history.csv")
 ufc_frame["date"] = pd.to_datetime(ufc_frame["date"])
 
 
-# Let user pick what weightclass they would like to view
+# let user pick what weightclass they would like to view
 while True:
     weightclass = input("Enter a valid UFC weightclass: ")
     weightclass = weightclass.capitalize()
