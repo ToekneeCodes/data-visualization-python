@@ -21,8 +21,3 @@ plt.legend(title="Product")
 plt.grid(True)
 plt.show()
 
-
-# frame = pd.read_csv("sample_data.csv")
-
-# print(frame.head())
-
