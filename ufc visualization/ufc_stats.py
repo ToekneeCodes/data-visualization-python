@@ -38,7 +38,7 @@ def plot_top5(weightclass):
     aggfunc="min"
     )
 
-    pivot.plot(kind="line", marker="o", figsize=(12,6))
+    pivot.plot(kind="line", marker="o", linestyle="--", figsize=(12,6))
     plt.title(f"Top 5 {weightclass} Rankings Over Time")
     plt.xlabel("Date")
     plt.ylabel("Rank")
